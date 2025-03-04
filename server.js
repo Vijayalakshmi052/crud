@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Configure CORS (change frontend URL if necessary)
-app.use(cors({ origin: "http://localhost:4000", methods: "GET,POST,PUT,DELETE" }));
+app.use(cors({ origin: "http://crud-ten-eta.vercel.app", methods: "GET,POST,PUT,DELETE" }));
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
