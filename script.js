@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:4000/api/users";
+const API_URL = "http://crud-ten-eta.vercel.app/api/users";
 
 // Fetch all users and display them
 async function fetchUsers() {
